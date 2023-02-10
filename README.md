@@ -12,18 +12,18 @@ If you are curious about how this dataset was prepared, the code to access TMDb'
 
 #### New columns:
 
--homepage
--id
--original_title
--overview
--popularity
--production_companies
--production_countries
--release_date
--spoken_languages
--status
--tagline
--vote_average
+- homepage
+- id
+- original_title
+- overview
+- popularity
+- production_companies
+- production_countries
+- release_date
+- spoken_languages
+- status
+- tagline
+- vote_average
 
 # app link: 
 https://sandy252-recommender-system-app-i5kz1a.streamlit.app/
