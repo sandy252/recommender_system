@@ -7,7 +7,7 @@ What can we say about the success of a movie before it is released? Are there ce
 This is a great place to start digging in to those questions, with data on the plot, cast, crew, budget, and revenues of several thousand films.
 
 ### Data Source Transfer Summary
-Several of the new columns contain json. You can save a bit of time by porting the load data functions [from this kernel](). Even in simple fields like runtime may not be consistent across versions. For example, previous dataset shows the duration for Avatar's extended cut while TMDB shows the time for the originalversion. There's now a separate file containing the full credits for both the cast and crew.All fields are filled out by users so don't expect them to agree on keywords, genres, ratings, or the like.Your existing kernels will continue to render normally until they are re-run.
+Several of the new columns contain json. You can save a bit of time by porting the load data functions from [this]() kernel. Even in simple fields like runtime may not be consistent across versions. For example, previous dataset shows the duration for Avatar's extended cut while TMDB shows the time for the originalversion. There's now a separate file containing the full credits for both the cast and crew.All fields are filled out by users so don't expect them to agree on keywords, genres, ratings, or the like.Your existing kernels will continue to render normally until they are re-run.
 If you are curious about how this dataset was prepared, the code to access TMDb's API is posted here.
 
 #### New columns:
