@@ -32,7 +32,8 @@ def recommend(movie):
     return recommended_movies, recommended_movies_posters
 
 
-movies = pickle.load(open('data.pkl', 'rb'))
+# movies = pickle.load(open('data.pkl', 'rb'))
+movies = pd.read_pickle('data.pkl')
 # movies_list = movies_list['title'].values
 st.title("Movie Recommender System")
 # print(movies)
