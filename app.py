@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import requests
+import pandas as pd
 
 
 similarity = pickle.load(open('similarity.pkl', 'rb'))
